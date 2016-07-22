@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单作业</title>
+    <style>
+       /*main{
+           width:980px;
+           height: 600px;
+           margin-left:auto;
+           margin-right:auto;
+           background:#f9f7f7;
+           border: 1px solid black;
+        }*/
+        .zc{
+            width: 100px;
+            height:50px;
+            background-color: green;
+            margin-left: 70px;
+        }
+        .qq{
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <form action="http://www.baidu.com" method="GET" target="_blank">
+    <fieldset>
+        <img src="logo.jpg" alt="">
+            <span><a href="#">了解更多 |</a></span>
+            <span><a href="#">反馈意见</a></span>
+            <div style="border:1px solid black;width: 800px; height: 500px;">
+                <div style="background-color:green;height: 40px">欢迎注册网易免费邮！</div><br><br>
+                <div class="qq">
+                    <input type="reset" value="注册字母邮箱" style="margin-left: 75px;">
+                    <input type="reset" value="注册手机号码邮箱"> <br><br>
+                    <span style="background-color:red;">*</span>邮箱地址 <input type="text" name="name" placeholder="建议用手机号码注册">@
+                    <select name="dd" id="fff">
+                        <option value="">163.com</option>
+                        <option value="">qq.com</option>
+                        <option value="">126.com</option>
+                    </select> <br>
+                    <span style="font-size: 10px;color:red;">&#x3000;&#x3000;&#x3000;&#x3000;&#x3000;&#x3000;&#x3000;6~18个字符,可使用字母、数字、下划线,需以字母开头</span> <br><br>
+                    &#x3000;&#x3000;<span style="background-color:red;">*</span>密码 <input type="password"><br>
+                    <span style="font-size: 10px;color:red;">&#x3000;&#x3000;&#x3000;&#x3000;&#x3000;&#x3000;&#x3000;6~16个字符,区分大小写</span> <br><br>
+                    <span style="background-color:red;">*</span>确认密码 <input type="password"> <br>
+                    <span style="font-size:10px;color:red;">&#x3000;&#x3000;&#x3000;&#x3000;&#x3000;&#x3000;&#x3000;请再次填写密码</span> <br>
+                    <br>
+                    <br>
+                    &#x3000;<span style="background-color:red;">*</span>验证码 <input type="text"> <br><br>
+                    <span style="font-size: 10px;color:red;">&#x3000;&#x3000;&#x3000;&#x3000;&#x3000;&#x3000;&#x3000;请填写图片中的字符,不区分大小写</span><br><br>
+                    &#x3000;&#x3000;&#x3000;&#x3000;<input type="checkbox" checked="checked">同意<a href="#">"服务条款"</a>和<a href="#">"隐私权相关政策"</a> <br><br>
+                    <div class="zc">
+                        <a href="#" style="color:white;">立即注册</a>
+                </div>
+                </div>
+            </div>
+    </fieldset>
+    </form>
+</body>
+</html>
